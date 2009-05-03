@@ -13,8 +13,9 @@ class topview extends commonview {
 <link rel="stylesheet" type="text/css" href="stuff/top.css">
 </head>
 <body>
+<div style="text-align:center;">
 <div class="cont">
-<div class="header"><a href="http://d.hatena.ne.jp/quill3/" target="_blank" >About this service</a></div>
+<div class="header"><a href="http://d.hatena.ne.jp/quill3/20090503/p1" target="_blank" >About this service</a></div>
 <div class="logo"><img src="stuff/rhlogo11.png" alt="RetroHateb" border="0"><br>
 <img src="stuff/rhlogo12.png" alt="RetroHateb" border="0"></div>
 
@@ -23,7 +24,7 @@ EOF;
 
 //フッタ
     function footer () {
-        $this->_html .= '</div>'."\n";
+        $this->_html .= '</div></div>'."\n";
         $this->_html .= <<< EOF
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

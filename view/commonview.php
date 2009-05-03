@@ -41,7 +41,7 @@ class commonview {
 //フッタ
     function footer () {
         $this->_html .= '<div class="footer">This service is created by <a href="http://d.hatena.ne.jp/quill3/" target="_blank" >quill3</a></div>'."\n";
-        $this->_html .= '</div>'."\n";
+        $this->_html .= '</div></div>'."\n";
         $this->_html .= <<< EOF
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

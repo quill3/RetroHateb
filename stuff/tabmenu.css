@@ -67,4 +67,5 @@ background: #004080 url(heading_icon.gif) no-repeat 8px; /* 見出しの背景 *
 border-bottom: 1px #002448 solid; /* 見出しの下枠線 */
 font-size: 110%; /* 見出しの文字サイズ */
 color: #ffffff; /* 見出しの文字色 */
+text-align: left;
 }

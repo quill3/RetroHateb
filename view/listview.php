@@ -14,6 +14,7 @@ class listview extends commonview {
 <link rel="stylesheet" type="text/css" href="stuff/tabmenu.css">
 </head>
 <body>
+<div style="text-align:center;">
 <div class="cont">
 <div class="logo"><a href="http://www.retro-hateb.com/"><img src="stuff/rhlogo2.gif" alt="RetroHateb" border="0"></a></div>
 
