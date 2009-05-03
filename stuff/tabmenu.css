@@ -1,0 +1,70 @@
+/* --- ナビゲーションバー --- */
+.nav {
+width: 100%; /* ナビゲーションの幅 */
+padding-top: 20px; /* ナビゲーションの上パディング */
+background-color: #ffffff; /* ナビゲーションの背景色 */
+font-size: 80%;
+}
+
+/* --- メニューエリア --- */
+.nav .nl {
+width: 99%; /* メニューの幅 */
+margin: 0 auto; /* メニューのマージン（上下、左右） */
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+/* --- メニュー項目 --- */
+.nav .nl li {
+width: 5em; /* タブの幅 */
+margin-right: 4px; /* タブの右マージン */
+background: #f9f9f9 url(tab_gen2_left.gif) no-repeat left top; /* タブの背景（左） */
+float: left;
+}
+
+/* --- リンク --- */
+.nav .nl li a {
+display: block;
+position: relative; /* IE6用 */
+padding: 6px 2px 5px 2px; /* リンクエリアのパディング（上右下左） */
+background: url(tab_gen2_right.gif) no-repeat right top; /* タブの背景（右） */
+text-decoration: none; /* テキストの下線（なし） */
+}
+/* --- ポイント時の設定 --- */
+.nav .nl li a:hover {
+text-decoration: underline; /* テキストの下線（あり） */
+}
+
+/* --- アクティブなタブ --- */
+.nav .nl li.active {
+background: #004080 url(tab_act2_left.gif) no-repeat left top; /* タブの背景（左） */
+}
+.nav .nl li.active a {
+background: url(tab_act2_right.gif) no-repeat right top; /* タブの背景（右） */
+color: #ffffff; /* アクティブタブの文字色 */
+}
+
+/* --- clearfix --- */
+.clearFix:after {
+content: ".";
+display: block;
+height: 0;
+clear: left;
+visibility: hidden;
+}
+.clearFix {
+min-height: 1px;
+}
+
+
+/* --- 見出し --- */
+h2 {
+position: relative; /* Netscape7用 */
+margin: 0;
+padding: 5px 10px 3px 28px; /* 見出しのパディング（上右下左） */
+background: #004080 url(heading_icon.gif) no-repeat 8px; /* 見出しの背景 */
+border-bottom: 1px #002448 solid; /* 見出しの下枠線 */
+font-size: 110%; /* 見出しの文字サイズ */
+color: #ffffff; /* 見出しの文字色 */
+}

@@ -1,0 +1,44 @@
+.cont {
+   width:825px;
+   margin-left:auto;
+   margin-right:auto;
+  }
+
+.logo {
+   padding-top:1em;
+   text-align:center;
+   }
+
+.form {
+   text-align:center;
+   }
+  
+.pager {
+   padding-top:1em;
+   text-align:center;
+   }
+  
+.result {
+   padding:0px 1em 1em 1em;
+   }
+
+.users a:link,
+.users a:hover,
+.users a:visited {
+	font-size: 75%;
+    color: #ff0000;
+    background-color: #FFCCCC;
+	}
+
+.timestamp {
+	font-size: 75%;
+    color: #999;
+	}
+
+.footer {
+   font-size: small;
+   color: #888888;
+   font-style: italic;
+   text-align: right;
+   padding:2em 0px;
+   }

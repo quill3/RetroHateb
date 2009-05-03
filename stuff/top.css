@@ -1,0 +1,23 @@
+.cont {
+   width:825px;
+   margin-left:auto;
+   margin-right:auto;
+  }
+
+.header {
+   font-size: small;
+   color: #888888;
+   font-style: italic;
+   text-align: right;
+   padding-top:1em;
+   }
+   
+.logo {
+   padding-top:2em;
+   text-align:center;
+   }
+
+.form {
+   padding-top:2em;
+   text-align:center;
+   }
